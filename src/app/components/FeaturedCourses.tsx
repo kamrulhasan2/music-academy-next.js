@@ -40,14 +40,14 @@ const FeaturedCourses = () => {
                                         alt={course.title}
                                         height="400"
                                         width="400"
-                                        className="object-contain"
+                                        className="object-cover"
                                     />
                                     
                                     <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                                         <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                                         <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
                                         <Link className="mt-2" href={`/courses/${course.slug}`}>
-                                           <Button className='cursor-pointer bg-blue-100 text-neutral-700'> Learn More</Button> 
+                                           <Button style={{ height:'1.95rem',borderRadius:'1rem'}} className='cursor-pointer bg-blue-100 text-neutral-700 border-b-orange-600'> Learn More</Button> 
                                         </Link>
                                     </div>
                                 </BackgroundGradient>
