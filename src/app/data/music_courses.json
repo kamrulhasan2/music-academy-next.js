@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "https://media.istockphoto.com/id/93546707/vector/a-poster-template-for-a-musical-event.jpg?s=1024x1024&w=is&k=20&c=_19kXmGfiDB83Gd4l9mEtOot9pzERtwZuFN1MqZpzqw=" 
       },
       {
         "id": 2,
@@ -17,8 +17,8 @@
         "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
         "price": 109.99,
         "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "isFeatured": true,
+        "image": "https://media.istockphoto.com/id/2212568699/photo/design-with-abstract-figure-made-from-instruments-like-accordion-saxophone-and-violin-in-blue.jpg?s=1024x1024&w=is&k=20&c=evCHCNIlmaRkaVKQfwoX4wF2DgQxObAZQ2PG2MJfeFg=" 
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "https://media.istockphoto.com/id/1353406535/photo/contemporary-art-collage-of-joyful-girl-in-headphones-dancing-isolated-over-pink-geometric.jpg?s=1024x1024&w=is&k=20&c=A_VtABI39irxZpP4I2JRQVBHzMLhAXRIpTSLHznZDxI=" 
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "https://media.istockphoto.com/id/2147512423/photo/stylish-young-man-musician-playing-saxophone-on-white-background-with-abstract-colorful.jpg?s=1024x1024&w=is&k=20&c=3sUr8-7cSOt4I2wVZmF5RMG4O7Vt7vPO1NDIT6dIjhU="
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "image": "https://media.istockphoto.com/id/2196195904/photo/vertical-photo-collage-of-young-beautiful-american-girl-dance-disco-relax-note-guitar.jpg?s=1024x1024&w=is&k=20&c=H3xnGepp_ot9te3cbod8JHbHyhd9iEq8i6Bd0ZpyvUc="
       },
       {
         "id": 6,
@@ -58,7 +58,7 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://media.istockphoto.com/id/2222209046/photo/vertical-photo-collage-of-happy-girl-composer-dance-acoustic-guitar-melody-note-relax-event.jpg?s=1024x1024&w=is&k=20&c=eLYcamwLQcmpXOIEqT2Gy_9dTLiYugAsTIDiF-_CVw8="
       },
       {
         "id": 7,
@@ -68,7 +68,7 @@
         "price": 159.99,
         "instructor": "Samantha Miller",
         "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
+        "image": "https://media.istockphoto.com/id/2147571206/photo/contemporary-art-collage-young-people-musicians-standing-inside-laptop-and-playing-on.jpg?s=612x612&w=0&k=20&c=GmNK_MWF1DHOj4kW9PyS5uuOfXFJWIAVjEoMlcY9qnE="
       },
       {
         "id": 8,
@@ -78,7 +78,7 @@
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "https://media.istockphoto.com/id/96450885/vector/dj-guitar.jpg?s=612x612&w=0&k=20&c=6HfqsIO_GlZgb_MwyZOpr60t5orgTwl68VQ3JxPSThU="
       },
       {
         "id": 9,
@@ -88,7 +88,7 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
+        "image": "https://media.istockphoto.com/id/1211359266/vector/jazz-musical-instrument-icons.jpg?s=612x612&w=0&k=20&c=0DKFihrZ-VOR5jLF7alyEiLz4akhd3NJA5bKk22Qw5Q="
       },
       {
         "id": 10,
@@ -98,7 +98,7 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "image": "https://media.istockphoto.com/id/2201680681/photo/vertical-art-creative-collage-of-happy-hipster-man-dance-acoustic-guitar-instrument.jpg?s=1024x1024&w=is&k=20&c=gpSEOXcXeQTaOIxBnhrnWFGn947r7D-sV6BRuFJrv3A="
       }
     ]
   }
