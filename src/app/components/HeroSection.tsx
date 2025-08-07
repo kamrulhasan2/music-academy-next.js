@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Spotlight } from "./ui/Spotlight";
-
+import { Button } from "./ui/moving-border";
 
 function HeroSection() {
     return (
@@ -19,12 +19,7 @@ function HeroSection() {
                 >Dive into our comprehensive music courses and transform your musical journey today. Whether you're a beginner or looking to refine your skills, join us to unlock your true potential.</p>
                 <div className="mt-5">
                     <Link href={"/courses"}>
-                        <button className="p-[3px] cursor-pointer relative">
-                            <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-                            <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-                                Explore courses
-                            </div>
-                        </button>
+                        <Button className="cursor-pointer">Explore courses</Button>
                     </Link>
                 </div>
             </div>
