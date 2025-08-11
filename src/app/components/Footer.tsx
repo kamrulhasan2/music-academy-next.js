@@ -1,4 +1,6 @@
-import Link from "next/link"
+"use client";
+
+import Link from "next/link";
 
 const quickLinks = [
     {
@@ -93,7 +95,7 @@ function Footer() {
                 </div>
             </div>
 
-            <div>
+            <div className="text-center md:text-start items-center">
                 <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
                 <p>Dhaka, Bangladesh</p>
                 <p>Email: info@music02accademy.com</p>
