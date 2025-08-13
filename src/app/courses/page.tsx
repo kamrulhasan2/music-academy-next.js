@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
 import courseData from "@/app/data/music_courses.json"
+import Link from 'next/link'
 
 function CoursesPage(){
   return (
@@ -18,7 +19,9 @@ function CoursesPage(){
                             translateZ="50"
                             className="text-xl font-bold text-neutral-600 dark:text-white"
                             >
-                            {course.title}
+                                <Link href={`/courses/${course.slug}`}>
+                                    {course.title}
+                                </Link>
                             </CardItem>
                             <CardItem
                             as="p"
@@ -28,14 +31,17 @@ function CoursesPage(){
                             {course.description}
                             </CardItem>
                             <CardItem translateZ="100" className="w-full mt-4">
-                            
-                            <Image 
-                                src={course.image}
-                                height="1000"
-                                width="1000"
-                                className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                                alt={course.title}
-                            />
+                             
+                                <Link href={`/courses/${course.slug}`}>
+                                    <Image 
+                                        src={course.image}
+                                        height="1000"
+                                        width="1000"
+                                        className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                                        alt={course.title}
+                                    />
+                                </Link>
+  
                             </CardItem>
                             <div className="flex justify-between items-center mt-20">
                                 <CardItem
@@ -43,14 +49,18 @@ function CoursesPage(){
                                 as="button"
                                 className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                                 >
-                                Try now →
+                                    <Link href={`/courses/${course.slug}`}>
+                                            Try now →
+                                    </Link>
                                 </CardItem>
                                 <CardItem
                                 translateZ={20}
                                 as="button"
-                                className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                                className="px-4 py-2 cursor-pointer rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                                 >
-                                Sign up
+                                    <Link href={'#'}>
+                                         Sign up
+                                    </Link>
                                 </CardItem>
                             </div>
                         </CardBody>
