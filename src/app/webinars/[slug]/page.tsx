@@ -49,7 +49,7 @@ export default function WebinarsDetails({params}: WebinarsDetailsProps) {
                             alt={webinar.title}
                             width={300}
                             height={400}
-                            className="items-center justify-center rounded-lg shadow-lg object-cover w-full h-[80vh]"
+                            className="items-center justify-center rounded-lg shadow-lg object-cover w-full h-[50vh] md:h-[80vh]"
                         />
                     </div>
                     <div className="md:w-1/2 text-white">
