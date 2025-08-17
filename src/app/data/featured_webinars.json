@@ -4,43 +4,57 @@
       "title": "Understanding Music Theory",
       "description": "Dive deep into the fundamentals of music theory and enhance your musical skills.",
       "slug": "understanding-music-theory",
-      "isFeatured": true
+      "isFeatured": true,
+      "img" : "/webinars/hands.jpg",
+      "details": "This webinar covers everything from the basic building blocks of music, like scales and chords, to more advanced concepts like harmony and composition. Perfect for beginners and those looking to refresh their knowledge."
     },
     {
       "title": "The Art of Songwriting",
       "description": "Learn the craft of songwriting from experienced musicians and songwriters.",
       "slug": "the-art-of-songwriting",
-      "isFeatured": true
+      "isFeatured": true,
+      "img" : "/webinars/sunflower.jpg",
+      "details": "Explore the creative process of songwriting, from finding inspiration and writing lyrics to structuring your songs and creating memorable melodies. Includes practical exercises and feedback opportunities."
     },
     {
       "title": "Mastering Your Instrument",
       "description": "Advanced techniques to master your musical instrument of choice.",
       "slug": "mastering-your-instrument",
-      "isFeatured": true
+      "isFeatured": true,
+      "img" : "/webinars/drum-set.jpg",
+      "details": "Take your instrumental skills to the next level. This session focuses on advanced techniques, practice strategies, and performance nuances for your specific instrument. Please specify your instrument upon registration."
     },
     {
       "title": "Music Production Essentials",
       "description": "Get started with music production with this comprehensive overview.",
       "slug": "music-production-essentials",
-      "isFeatured": true
+      "isFeatured": true,
+      "img" : "/webinars/piano.jpg",
+      "details": "Learn the fundamentals of music production in a home studio environment. We'll cover DAWs, MIDI, audio recording, mixing, and mastering basics to get you started on producing your own tracks."
     },
     {
       "title": "Live Performance Techniques",
       "description": "Enhance your live performance skills with expert tips and strategies.",
       "slug": "live-performance-techniques",
-      "isFeatured": true
+      "isFeatured": true,
+      "img" : "/webinars/audience.jpg",
+      "details": "Build confidence and stage presence with our live performance workshop. Learn how to engage an audience, overcome stage fright, and deliver a compelling performance every time."
     },
     {
       "title": "Digital Music Marketing",
       "description": "Learn how to promote your music effectively in the digital age.",
       "slug": "digital-music-marketing",
-      "isFeatured": true
+      "isFeatured": true,
+      "img" : "/webinars/digital-merketing.jpg",
+      "details": "Discover how to build your brand and get your music heard in the crowded digital landscape. This webinar covers social media strategies, streaming platform optimization, and online promotion."
     },
     {
       "title": "Physical Music Marketing",
       "description": "Learn how to promote your music effectively in the Physical way",
       "slug": "plysical-music-marketing",
-      "isFeatured": false
+      "isFeatured": false,
+      "img" : "/webinars/physical-merketing.jpg",
+      "details": "Learn the timeless strategies of promoting music through physical channels. This session covers merchandise creation, live show promotions, and connecting with fans in the real world."
     }
   ]
 }

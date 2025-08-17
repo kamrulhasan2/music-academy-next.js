@@ -9,7 +9,7 @@ function UpcomingWebinars() {
     const projects = webinars.data.filter(item => item.isFeatured).map(item => ({
         title: item.title,
         description: item.description,
-        link: item.slug
+        link: `webinars/${item.slug}`
     }));
 
   return (
