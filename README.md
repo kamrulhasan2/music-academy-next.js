@@ -72,4 +72,4 @@ music-academy/
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your_username/music-academy/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/kamrulhasan2/music-academy/issues).
