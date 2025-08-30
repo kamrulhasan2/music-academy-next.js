@@ -1,16 +1,13 @@
 import webinars from '@/app/data/featured_webinars.json';
-import Image from 'next/image'; 
-
+import Image from 'next/image';
 
 interface WebinarsDetailsProps {
-    params: {
-        slug: string;
-    };
+    params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata({ params }: WebinarsDetailsProps ) {
-    const {slug} = params;
-    const webinar = webinars.data.find( item => item.slug === slug);
+export async function generateMetadata({ params }: WebinarsDetailsProps) {
+    const { slug } = await params;
+    const webinar = webinars.data.find(item => item.slug === slug);
 
     if (!webinar) {
         return {
@@ -25,10 +22,8 @@ export async function generateMetadata({ params }: WebinarsDetailsProps ) {
     };
 }
 
-
-export default function WebinarsDetails({params}: WebinarsDetailsProps) { 
-    
-    const {slug} = params;
+export default async function WebinarsDetails({ params }: WebinarsDetailsProps) {
+    const { slug } = await params;
     const webinar = webinars.data.find(item => item.slug === slug);
 
     if (!webinar) {
@@ -55,7 +50,7 @@ export default function WebinarsDetails({params}: WebinarsDetailsProps) {
                     <div className="md:w-1/2 text-white">
                         <h1 className="text-4xl font-bold mb-4">{webinar.title}</h1>
                         <i className="mb-4">{webinar.description}</i>
-                        <p className="mb-4">{ webinar.details }</p>
+                        <p className="mb-4">{webinar.details}</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illo ipsa numquam doloremque porro perferendis iure soluta excepturi ad recusandae atque. Excepturi, dignissimos iste! Aut officiis adipisci iusto tempora, sequi dolorum nam atque amet, eveniet enim magnam laboriosam. Ut, laboriosam inventore. Tenetur, laboriosam, eligendi nesciunt amet porro similique id beatae officiis voluptatem corporis ullam? Voluptate quo at adipisci natus iusto, debitis harum sit sequi neque laudantium velit aspernatur quaerat, cupiditate voluptatibus ipsum tempora nulla qui officiis atque quisquam similique provident vitae. Dolores, voluptate voluptatibus. Repellat, incidunt. Velit veniam a accusamus quod veritatis amet distinctio commodi, rerum eius omnis fuga fugiat?</p>
                     </div>
                 </div>

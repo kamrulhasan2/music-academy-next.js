@@ -1,15 +1,12 @@
 import musicCourses from '@/app/data/music_courses.json';
-import Image from 'next/image'; 
-
+import Image from 'next/image';
 
 interface CourseDetailsProps {
-    params: {
-        slug: string;
-    };
+    params: Promise<{ slug: string }>;
 }
 
-export async function generateMetadata({ params }: CourseDetailsProps ) {
-    const {slug} = params;
+export async function generateMetadata({ params }: CourseDetailsProps) {
+    const { slug } = await params;
     const course = musicCourses.courses.find(course => course.slug === slug);
 
     if (!course) {
@@ -25,16 +22,8 @@ export async function generateMetadata({ params }: CourseDetailsProps ) {
     };
 }
 
-
-interface CourseDetailsProps {
-    params: {
-        slug: string;
-    };
-}
-
-export default function CourseDetails({params}: CourseDetailsProps) { 
-    
-    const {slug} = params;
+export default async function CourseDetails({ params }: CourseDetailsProps) {
+    const { slug } = await params;
     const course = musicCourses.courses.find(course => course.slug === slug);
 
     if (!course) {

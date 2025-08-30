@@ -5,6 +5,8 @@ import { Button } from "./ui/moving-border";
 import Link from 'next/link'
 
 
+import Image from 'next/image';
+
 interface Course {
     id: number,
     title: string,
@@ -36,11 +38,11 @@ const FeaturedCourses = () => {
                             <div key={course.id} className="flex justify-center">
                                 <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm" >
                                     <Link href={`/courses/${course.slug}`}>
-                                        <img
+                                        <Image
                                             src={course.image}
                                             alt={course.title}
-                                            height="400"
-                                            width="400"
+                                            height={400}
+                                            width={400}
                                             className="object-cover"
                                         />   
                                     </Link>
