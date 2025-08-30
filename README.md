@@ -72,4 +72,6 @@ music-academy/
 
 ## 🤝 Contributing
 
+
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/kamrulhasan2/music-academy-next.js/issues).
+
