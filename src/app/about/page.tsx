@@ -4,8 +4,8 @@ import Instructors from "../components/Instructors";
 
 function AboutUsPage() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-28">
-        <h1 className="text-lg md:text-5xl text-center font-sans font-bold mb-8 text-white">
+    <div className="min-h-screen bg-black py-12 pt-28 ml-2 mr-2">
+        <h1 className="text-4xl md:text-5xl text-center font-sans font-bold mb-8 md:mt-10 text-white">
             About Us
         </h1>
 
